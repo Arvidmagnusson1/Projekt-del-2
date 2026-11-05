@@ -1,3 +1,1 @@
-print("Hej Edvin")
-print("Välkommen")
-print("tjena")
+# Uppgift 1
