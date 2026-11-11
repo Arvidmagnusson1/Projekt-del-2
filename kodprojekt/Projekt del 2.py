@@ -77,6 +77,8 @@ print("Medelvärdet är:", avrundning)
 
 #1. summan ska starta på 0 och inte 1
 #2. x[i] ska vara strikt större än 0 och vi ska ha += för att vi vill addera varje värde
-#. Summa ... och antal ... ska vara på samma kolumn inom if
-# medelvärdet ska beräknas av summan och antalet termer som faktiskt ingår
+#3. Summa ... och antal ... ska vara på samma kolumn inom if
+#4. medelvärdet ska beräknas av summan och antalet termer som faktiskt ingår
+#5. Vi vill skriva ut svaret med en decimals noggranhet 
+
 
