@@ -62,21 +62,21 @@ pi = 4*N_in / N
 pi = round(pi,2)
 print(pi)
 
-#Uppgift 6
+#Uppgift 6 - korrigerad kod
 x = [-3, 2, 5, -1, 4, 0, 7]
-summa = 1
+summa = 0
 antal = 0
 
-for i in range(len(x) - 1):
-    if x[i] >= 0:
-        summa = x[i]^2
-    antal += 1
-
-medel = summa/len(x)
-avrundning = round(medel,2)
+for i in (range(len(x))):
+    if x[i] > 0:
+        summa += x[i]**2
+        antal += 1
+medel = summa/antal
+avrundning = round(medel,1)
 print("Medelvärdet är:", avrundning)
 
-#1. x[i] anger index och inte värde från en lista.
-#2. Svaret ska avrundas till en decimal. 
-
+#1. summan ska starta på 0 och inte 1
+#2. x[i] ska vara strikt större än 0 och vi ska ha += för att vi vill addera varje värde
+#. Summa ... och antal ... ska vara på samma kolumn inom if
+# medelvärdet ska beräknas av summan och antalet termer som faktiskt ingår
 
